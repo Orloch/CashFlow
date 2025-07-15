@@ -307,8 +307,7 @@ if prov_file and cli_file:
                 if c_idx > 1:
                     cell.number_format = "#,##0"
                     cell.alignment = Alignment(horizontal="right")
-    git - -version
-    # Esporta
+      # Esporta
     buf_final = io.BytesIO()
     wb.save(buf_final)
 
